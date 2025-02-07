@@ -5,12 +5,10 @@
 
 # for i in fruits:
 #     print(i)
-
-
+  
 # for x in range(len(fruits)):
 
 #     print(fruits [x])
-
 
 
 # Touple While loop ------------------------------
@@ -24,7 +22,6 @@
 #     print(fruits[i])
 
 #     i = i +1
-
 
 
 # Join Touple ======================
@@ -117,98 +114,6 @@
 # myset3 = myset1.union(myset2)
 
 # print(myset3)
-
-
-
-# Python Dictionary  ========================
-
-
-# studentInfo = {
-
-#     "Rifat" : {
-
-#         "Name": "Rifat",
-#         "Locations": "Rajshahi",
-#         "Study" : "CSE",
-#         "Roll" : 34,
-#         "Number" : "01716352797"
-#     },
-
-#     "Jihan" : {
-
-#         "Name": "Jihan",
-#         "Locations": "Dhaka",
-#         "Study" : "EEE",
-#         "Roll" : 10,
-#         "Number" : "01716352797"
-#     },
-  
-#        "Tutul" : {
-
-#         "Name": "Tutul",
-#         "Locations": "Ishwardi",
-#         "Study" : "Civil",
-#         "Roll" : 101,
-#         "Number" : "01716352797"
-#     },
-
-#     "Year" : 2025
-
-# }
-
-
-# Change------
-
-# studentInfo["Year"] = 1999
-
-# print(studentInfo)
-
-# Update the "year" of the car by using the update() method: 
-
-
-# studentInfo.update({"Tutul":"Tutul is an CSE Student"})
-
-# print(studentInfo["Tutul"])
-
-
-
-# Remove -------------------------
-
-# studentInfo.popitem()
-
-# del studentInfo
-
-# print(studentInfo)
-
-
-# Dictionary loops -----------------------
-
-# for i in studentInfo.items():
-#     print(i)
-
-# for i in studentInfo.values():
-#     print(i)
-
-# for i in studentInfo.keys():
-#     print(i)
-
-
-# Dictionary copy ---------------------------
-
-
-# Rifat_details = {
-#     "Name": "Rifat Al Shajid",
-#     "Roll": 34,
-#     "University": "DIU",
-#     "Address": "Dhaka, Bangladesh",
-#     "Phone Number": "01716352797"
-
-# }
-
-# x = dict(Rifat_details)
-
-# print(x)
-
 
 
 
