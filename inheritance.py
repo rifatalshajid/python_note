@@ -44,3 +44,28 @@ class Son(Grandfather, GrandMother, Father):
 b = Son()
 
 print(b.Business)
+
+
+
+# Multilavel inheritance ============== 
+
+class Father:
+    Smartphone = "Iphone"
+    Ac = "Walton"
+    Microphone = "Logitech"
+
+class Son1(Father):
+    Headphone = "mi"
+    Laptop = "HP"
+
+class Son2(Son1):
+    Earbuds = "Realme"
+    SmartWatch = "Mibro"
+
+class Son3(Son2):
+    Bike = "Yamaha"
+    Camera = "Canon"
+
+k = Son3
+
+print(k.Bike)
