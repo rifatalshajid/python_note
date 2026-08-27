@@ -7,3 +7,8 @@ data.find("is")
 
 data.index("python")
 data[8]
+
+#Upper case and lower case in string
+
+data.lower()
+data.upper()
