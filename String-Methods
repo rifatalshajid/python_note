@@ -2,3 +2,4 @@
 
 data = "This is python course"
 data.find("is")
+
