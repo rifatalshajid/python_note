@@ -3,3 +3,7 @@
 data = "This is python course"
 data.find("is")
 
+#index method in string
+
+data.index("python")
+data[8]
